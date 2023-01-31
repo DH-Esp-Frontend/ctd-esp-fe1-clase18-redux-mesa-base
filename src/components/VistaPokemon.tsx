@@ -5,7 +5,7 @@ import { getPokemon} from "../queries/pokemon.queries";
 
 const VistaPokemon = () => {
   /*
-  La constante pokemonSelect debe traerse el estado de búsqueda (state.busqueda) para que getPokemon lo pueda utilizar
+  La constante pokemonSelect debe traerse el estado de búsqueda (state.search) para que getPokemon lo pueda utilizar
   */
 
   const pokemonSelect; /*Tu código acá */

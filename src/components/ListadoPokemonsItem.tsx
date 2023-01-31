@@ -2,13 +2,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { extractPokemonId } from "../services/pokemon.services";
-import { buscarPokemon } from "../redux/slice";
+import { searchAnPokemon } from "../redux/slice";
 
 
 
 const ListadoPokemonsItem = () => {
   /*
-  - El div #listadoCategorias debe despachar "buscarpokemon" pasandole el nombre del pokemon por parámetro
+  - El div #listadoCategorias debe despachar "searchAnPokemon" pasandole el nombre del pokemon por parámetro
   - La constante data debe traerse del estado de Redux todos los pokemons (state.allPokemons)
    */
 
